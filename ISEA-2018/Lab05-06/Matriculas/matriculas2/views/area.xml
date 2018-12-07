@@ -1,0 +1,81 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+   
+   <record model="ir.ui.view" id="matriculas2.list_areas_tree">
+      <field name="name">matriculas2.areas.listado.tree</field>
+      <field name="model">matriculas2.area</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+          <field name="curso_ids">
+              <tree string="Cursos">
+                  <field name="name"/>
+                  <field name="description"/>
+                  <field name="fec_ini"/>
+                  <field name="fec_fin"/>
+              </tree>
+          </field>
+          
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="matriculas2.list_areas_form">
+      <field name="name">matriculas2.areas.listado.form</field>
+      <field name="model">matriculas2.area</field>
+      <field name="arch" type="xml">
+        <form  string="Listado de Areas">
+          <sheet>
+                <field name="name"/>
+                <field name="description"/>
+                <field name="curso_ids"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+
+
+    
+
+    <!-- actions opening views on models -->
+    
+    <record model="ir.actions.act_window" id="matriculas2.action_window">
+      <field name="name">Ventana de Areas</field>
+      <field name="res_model">matriculas2.area</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    
+    
+    <!-- menu categories -->
+    
+    <menuitem name="Areas" id="matriculas2.areas_listado" parent="matriculas2.menu_root"/>
+    
+    <!-- actions -->
+    
+    <menuitem name="Listado" id="matriculas2.areas_list" parent="matriculas2.areas_listado"
+              action="matriculas2.action_window"/>
+   
+  </data>
+</odoo>

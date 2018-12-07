@@ -1,0 +1,40 @@
+- ¿Qué es?
+El Plan Estratégico de Tecnologías de la Información (PETI) es un documento que define la estrategia bajo la cual se espera que las TI se integren con la misión, visión y objetivos organizacionales.
+
+En CCTI apoyamos a las empresas en la construcción de planes estratégicos que permitan un adecuado uso de las TI como agente de transformación organizacional.
+
+*********************************************************************************
+- ¿Qué se hace en la definición de PETI?
+Definir el adecuado uso y apropiación de las TI.
+Relación con sistemas de información actuales y futuros.
+Relación y dependencia entre servicios de TI.
+Definir el gobierno y control de TI.
+Análisis financiero del PETI.
+*********************************************************************************
+Aspectos
+- Definir un Plan Estratégico de Tecnologías de Información que soporte el Plan Estratégico y los Planes Operativos de la empresa.
+- Equilibrar la proporción costo-beneficio en Tecnologías de Información teniendo en cuenta que es una herramienta generadora de la calidad de los servicios que brinda la empresa o institución  de gran uso en la región.
+- Dar soporte a la dirección estratégica de la empresa. Considerando la demanda y justificación de los proyectos y gastos en función de los objetivos estratégicos de la empresa.
+- Desarrollar a la Oficina de Informática para ser un proveedor de servicios y Gestor de Proyectos para la empresa, lo cual ayudará a controlar los costos, tercerizar actividades específicas, mejorar la efectividad de la Tecnología e incrementar la Calidad y consistencia de las Tecnologías de Información en el mediano y largo plazo.
+- Facilitar la integración de los sistemas tradicionales o servicios actuales del cliente con los sistemas comunes de compañías modernas en el mundo, viabilizando su uso a través del B2B e Internet.
+- Generar la integración corporativa a nivel nacional a través de los procesos básicos del negocio y las aplicaciones propias de la empresa vía Internet e Intranet.
+**********************************************************************************
+FASES DE LA PLANIFICACION ESTRATÉGICA DE TECNOLOGÍA INFORMACIÓN
+
+1. Inicio del Proyecto
+E1 : Plan de Trabajo
+2. Alineamiento del Plan Estratégico de Tecnologías de Información con el Plan Estratégico del cliente
+E2 : Cuadro de Mando Integral
+3. Desarrollo del Plan Estratégico de Tecnologías de Información del cliente
+E3 : Análisis de la Situación Informática Actual
+E4 : Arquitectura de Procesos
+E5 : Arquitectura de Datos
+E6 : Arquitectura de Aplicaciones
+E7 : Arquitectura Tecnológica
+4. Desarrollo de las Iniciativas Estratégicas y Cartera de Proyectos de Sistemas de Información y Telecomunicaciones
+E8 : Iniciativas Estratégicas
+E9 : Cartera de Proyectos de Tecnologías de Información
+5. Recomendación de Controles a Implementar según la Norma ISO 17799
+E10 : Controles a Implementar
+6. Cierre del proyecto
+E11: Plan Estratégico de Tecnologías de Información.

@@ -1,0 +1,8 @@
+- Aprendimos a Crear modulos, configuarlos, modificarlos, y agregar relaciones entre modulos.
+- Aprendimos como realizar las relaciones de uno-muchos, muchos-muchos, realizamos en cada modulo diferentes relaciones entre los modelos.
+- El error al declarar algun elemento, o en cualquier parte del código causa que el servidor de odoo no responda.
+- Los modulos creados tenian las funciones basicas: Crear - Editar - Eliminar - Leer
+- La creacion de un modulo y la configuracion de este es muy facil, si se realizan los pasos indicados y se revisa el codigo, antes de realizar una actualización.
+- El PETI es el documento de gestión que orienta el desarrollo de las TICs en cualquier empresa, para que la creacion de los proyectos y ejecucion de estos sea el adecuado.
+- Se tuvieron dificultades con las vistas, debido que se escribio mal una parte del código, pero se pudo corregir a tiempo.
+- Algunas vistas no cargaron como se deberia, y hubo algunos problemas al momento de llamar a una vista.

@@ -1,0 +1,68 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="matriculas2.list_matriculas_tree">
+      <field name="name">matriculas2.matriculas.tree</field>
+      <field name="model">matriculas2.matricula</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="fecha"/>
+          <field name="alumno_id"/>
+          <field name="curso_id"/>
+        </tree>
+      </field>
+    </record>
+    
+    <record model="ir.ui.view" id="matriculas2.list_matriculas_form">
+      <field name="name">matriculas2.matriculas.form</field>
+      <field name="model">matriculas2.matricula</field>
+      <field name="arch" type="xml">
+        <form  string="Matriculas">
+          <sheet>
+                  <field name="fecha"/>
+                  <field name="alumno_id"/>
+                  <field name="curso_id"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    
+    <record model="ir.actions.act_window" id="matriculas2.action_window">
+      <field name="name">Ventana de Matriculas</field>
+      <field name="res_model">matriculas2.matricula</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    
+    <!-- menu categories -->
+    
+    <menuitem name="Matriculas" id="matriculas2.matriculas_listado" parent="matriculas2.menu_root"/>
+    
+    <!-- actions -->
+    
+    <menuitem name="Listado" id="matriculas2.matriculas_list" parent="matriculas2.matriculas_listado"
+              action="matriculas2.action_window"/>
+   
+  </data>
+</odoo>
