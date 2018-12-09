@@ -1,0 +1,9 @@
+Conclusiones
+
+- realizamos la creacion de sesiones y grupos, a los cuales se le asignaron diferentes permisos.
+- se consiguio mostrar los grupos y sesiones en la pagina web creada.
+- Se realizo y configuro partes del modulo para la generacion de reportes.
+- Se configuraron las vistas calendario, grafico, kanban y se modificaron los filtros de busqueda.
+- aprendimos sobre las relaciones many2many, one2many, many2one y a usarlo en el modulo Openacademy.
+- Odoo Brinda una API para poder conectarnos y utilizar sus datos en aplicaciones de terceros.
+- Los modulos de Odoo se pueden configurar de muchas maneras, ademas se puede colocar temas diferentes para cambiar el estilo de la interfaz.
